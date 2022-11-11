@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Smoke"
+           tests="8"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="4.324">
+    <properties></properties>
+
+
+
+            <testcase
+                name="deleteStaduimDataWithAuthorization"
+                time="0.044"
+                classname="stadiums.Collection">
+            </testcase>
+            <testcase
+                name="deleteStaduimDataNotAuthorized"
+                time="0.018"
+                classname="stadiums.Collection">
+            </testcase>
+            <testcase
+                name="addNewStaduimNotAuthorized"
+                time="0.023"
+                classname="stadiums.Collection">
+            </testcase>
+            <testcase
+                name="getAllStaduimsDataNoAuthorization"
+                time="0.031"
+                classname="stadiums.Collection">
+            </testcase>
+            <testcase
+                name="modifyStaduimDataNoAuthorization"
+                time="0.018"
+                classname="stadiums.Collection">
+            </testcase>
+            <testcase
+                name="getAllStaduimsDataWithAuthorization"
+                time="0.044"
+                classname="stadiums.Collection">
+            </testcase>
+            <testcase
+                name="modifyStaduimDataWithAuthorization"
+                time="2.059"
+                classname="stadiums.Collection">
+            </testcase>
+            <testcase
+                name="addNewStaduimWithAuthorization"
+                time="2.087"
+                classname="stadiums.Collection">
+            </testcase>
+</testsuite>

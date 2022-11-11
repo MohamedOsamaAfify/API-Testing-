@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="API Automation Test Run" verbose="1" >
+    <test name="Smoke">
+        <classes>
+            <class name="clubs.Collection"></class>
+            <class name="stadiums.Collection"></class>
+            <class name="referees.Collection"></class>
+            <class name="tournaments.Collection"></class>
+            <class name="transfers.Collection"></class>
+        </classes>
+    </test>
+</suite>

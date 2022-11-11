@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Smoke"
+           tests="8"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="4.279">
+    <properties></properties>
+
+
+
+            <testcase
+                name="getAllRefereesDataNoAuthorization"
+                time="0.031"
+                classname="referees.Collection">
+            </testcase>
+            <testcase
+                name="deleteRefereeDataNotAuthorized"
+                time="0.014"
+                classname="referees.Collection">
+            </testcase>
+            <testcase
+                name="modifyRefereesDataWithAuthorization"
+                time="2.039"
+                classname="referees.Collection">
+            </testcase>
+            <testcase
+                name="addNewRefereesWithAuthorization"
+                time="2.081"
+                classname="referees.Collection">
+            </testcase>
+            <testcase
+                name="addNewRefereesNotAuthorized"
+                time="0.018"
+                classname="referees.Collection">
+            </testcase>
+            <testcase
+                name="deleteRefereeDataWithAuthorization"
+                time="0.036"
+                classname="referees.Collection">
+            </testcase>
+            <testcase
+                name="modifyRefereesDataNoAuthorization"
+                time="0.014"
+                classname="referees.Collection">
+            </testcase>
+            <testcase
+                name="getAllRefereesDataWithAuthorization"
+                time="0.046"
+                classname="referees.Collection">
+            </testcase>
+</testsuite>

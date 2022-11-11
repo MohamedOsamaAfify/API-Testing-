@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Smoke"
+           tests="8"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="4.403">
+    <properties></properties>
+
+
+
+            <testcase
+                name="cancelTransferDataNotAuthorized"
+                time="0.009"
+                classname="transfers.Collection">
+            </testcase>
+            <testcase
+                name="modifyTransferDataNoAuthorization"
+                time="0.011"
+                classname="transfers.Collection">
+            </testcase>
+            <testcase
+                name="createNewTransferNotAuthorized"
+                time="0.015"
+                classname="transfers.Collection">
+            </testcase>
+            <testcase
+                name="getAllTransfersDataNoAuthorization"
+                time="0.178"
+                classname="transfers.Collection">
+            </testcase>
+            <testcase
+                name="createNewTransferWithAuthorization"
+                time="2.070"
+                classname="transfers.Collection">
+            </testcase>
+            <testcase
+                name="getAllTransfersDataWithAuthorization"
+                time="0.040"
+                classname="transfers.Collection">
+            </testcase>
+            <testcase
+                name="modifyTournamentDataWithAuthorization"
+                time="2.041"
+                classname="transfers.Collection">
+            </testcase>
+            <testcase
+                name="cancelTransferWithAuthorization"
+                time="0.039"
+                classname="transfers.Collection">
+            </testcase>
+</testsuite>

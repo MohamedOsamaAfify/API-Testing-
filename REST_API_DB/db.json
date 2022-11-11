@@ -1,0 +1,163 @@
+{
+  "Clubs": [
+    {
+      "id": 1,
+      "Club Rank": 1,
+      "Club Name": "Ahly",
+      "Main Uniform": "Red",
+      "Sub Uniform": "Balck",
+      "Coach Name": "Colar"
+    },
+    {
+      "id": 2,
+      "Club Rank": 2,
+      "Club Name": "Zamalek",
+      "Main Uniform": "White",
+      "Sub Uniform": "Blue",
+      "Coach Name": "Ferera"
+    },
+    {
+      "id": 3,
+      "Club Rank": 3,
+      "Club Name": "Pyramids",
+      "Main Uniform": "Blue",
+      "Sub Uniform": "White",
+      "Coach Name": "jolar"
+    },
+    {
+      "Club Rank": 4,
+      "Club Name": "Enpii",
+      "Main Uniform": "Blue",
+      "Sub Uniform": "Red",
+      "Coach Name": "Ahmed",
+      "id": 4
+    },
+    {
+      "Club Rank": "16",
+      "Club Name": "Ghazl",
+      "Sub Uniform": "White",
+      "Main Uniform": "Blue",
+      "Coach Name": "Omar",
+      "id": 5
+    }
+  ],
+  "Staduims": [
+    {
+      "id": 1,
+      "Staduim Name": "Cairo International Staduim",
+      "Location": "Cairo",
+      "Capacity": 85000
+    },
+    {
+      "id": 2,
+      "Staduim Name": "Arab Contractors Staduim",
+      "Location": "Cairo",
+      "Capacity": 22000
+    },
+    {
+      "id": 3,
+      "Staduim Name": "Air Defence Staduim",
+      "Location": "Cairo",
+      "Capacity": 35000
+    },
+    {
+      "id": 4,
+      "Staduim Name": "Borg Alarab Staduim",
+      "Location": "Alexandria",
+      "Capacity": 75000
+    },
+    {
+      "id": 5,
+      "Staduim Name": "Alexandria Staduim",
+      "Location": "Alexandria",
+      "Capacity": 20000
+    },
+    {
+      "id": 6,
+      "Staduim Name": "Suze Staduim",
+      "Location": "Suez",
+      "Capacity": 15000
+    },
+    {
+      "Staduim Name": "Rads",
+      "Location": "Tinisia",
+      "Capacity": 70000,
+      "id": 7
+    }
+  ],
+  "Referees": [
+    {
+      "id": 1,
+      "Referee Name": "Ibrahem nour",
+      "Height": 175,
+      "Weight": 85
+    },
+    {
+      "id": 2,
+      "Referee Name": "Mohamed Maarof",
+      "Height": 185,
+      "Weight": 80
+    },
+    {
+      "id": 3,
+      "Referee Name": "Gehad Gresha",
+      "Height": 165,
+      "Weight": 69
+    },
+    {
+      "Referee Name": "Ahmed shenawy",
+      "Height": 181,
+      "Weight": 71,
+      "id": 4
+    }
+  ],
+  "Tournaments": [
+    {
+      "id": 1,
+      "Tournment Name": "Primer League",
+      "Duration in days": 250,
+      "Reward in EGP": 2000000
+    },
+    {
+      "id": 2,
+      "Tournment Name": "Egyptain cup",
+      "Duration in days": 120,
+      "Reward in EGP": 500000
+    },
+    {
+      "id": 3,
+      "Tournment Name": "CAF Champions League",
+      "Duration in days": 310,
+      "Reward in USD": 1500000
+    },
+    {
+      "Tournment Name": "second class League",
+      "Duration in days": 250,
+      "Reward in EGP": 20000,
+      "id": 4
+    }
+  ],
+  "Transfers": [
+    {
+      "id": 1,
+      "Player name": "Mahmoud Alaa",
+      "From": "Zamalek",
+      "To": "Ahly",
+      "Cost": "8545"
+    },
+    {
+      "Player name": "Ahmed Alaa",
+      "From": "Enpii",
+      "To": "Zamalek",
+      "Cost": "80545",
+      "id": 2
+    }
+  ],
+  "users": [
+    {
+      "email": "olivier@mail.com",
+      "password": "$2a$10$P2KxJPSMARn5JDD6pjB3Xu7W1jxQpREmdS4PYe..fF5l3Qh8lXyhG",
+      "id": 1
+    }
+  ]
+}

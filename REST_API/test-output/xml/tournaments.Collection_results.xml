@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Smoke"
+           tests="8"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="4.303">
+    <properties></properties>
+
+
+
+            <testcase
+                name="modifyTournamentDataNoAuthorization"
+                time="0.015"
+                classname="tournaments.Collection">
+            </testcase>
+            <testcase
+                name="addNewTournamentWithAuthorization"
+                time="2.072"
+                classname="tournaments.Collection">
+            </testcase>
+            <testcase
+                name="getAllTournamentsDataNoAuthorization"
+                time="0.047"
+                classname="tournaments.Collection">
+            </testcase>
+            <testcase
+                name="deleteTournamentDataNotAuthorized"
+                time="0.012"
+                classname="tournaments.Collection">
+            </testcase>
+            <testcase
+                name="getAllTournamentsDataWithAuthorization"
+                time="0.044"
+                classname="tournaments.Collection">
+            </testcase>
+            <testcase
+                name="modifyTournamentDataWithAuthorization"
+                time="2.059"
+                classname="tournaments.Collection">
+            </testcase>
+            <testcase
+                name="addNewTournamentNotAuthorized"
+                time="0.019"
+                classname="tournaments.Collection">
+            </testcase>
+            <testcase
+                name="deleteTournamentDataWithAuthorization"
+                time="0.035"
+                classname="tournaments.Collection">
+            </testcase>
+</testsuite>

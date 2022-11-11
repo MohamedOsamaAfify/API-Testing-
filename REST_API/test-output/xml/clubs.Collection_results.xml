@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Smoke"
+           tests="8"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="4.442">
+    <properties></properties>
+
+
+
+            <testcase
+                name="addNewClubNotAuthorized"
+                time="0.031"
+                classname="clubs.Collection">
+            </testcase>
+            <testcase
+                name="getAllClubsDataNoAuthorization"
+                time="0.122"
+                classname="clubs.Collection">
+            </testcase>
+            <testcase
+                name="modifyClubDataWithAuthorization"
+                time="2.058"
+                classname="clubs.Collection">
+            </testcase>
+            <testcase
+                name="addNewClubWithAuthorization"
+                time="2.085"
+                classname="clubs.Collection">
+            </testcase>
+            <testcase
+                name="deleteClubDataNotAuthorized"
+                time="0.016"
+                classname="clubs.Collection">
+            </testcase>
+            <testcase
+                name="getAllClubsDataWithAuthorization"
+                time="0.062"
+                classname="clubs.Collection">
+            </testcase>
+            <testcase
+                name="modifyClubDataNoAuthorization"
+                time="0.018"
+                classname="clubs.Collection">
+            </testcase>
+            <testcase
+                name="deleteClubDataWithAuthorization"
+                time="0.050"
+                classname="clubs.Collection">
+            </testcase>
+</testsuite>
